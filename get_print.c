@@ -31,8 +31,8 @@ int (*get_print(char s))(va_list, flags_t *)
 
 	for (i = 0; i < flags; i++)
 	{
-		if (func_array[i].c == s)
-			return (func_array[i].f);
+		if (func_arr[i].c == s)
+			return (func_arr[i].f);
 	}
 
 	return (NULL);
