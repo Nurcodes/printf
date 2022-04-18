@@ -2,6 +2,7 @@
 
 /**
  * _printf - printfs format string to the screen
+<<<<<<< HEAD
  *
  * @formart: input string to be printed
  *
@@ -9,6 +10,10 @@
  */
 
 int _printf(const char *formart, ...)
+=======
+ */
+int _printf(const char *format, ...)
+>>>>>>> 5bc617c019bda82226fd5bf2f86f2d0dcd7166a8
 {
 	int (*pfunc)(va_list, flags_t *);
 	const char *p;
@@ -45,3 +50,7 @@ int _printf(const char *formart, ...)
 	va_end(arguments);
 	return (count);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5bc617c019bda82226fd5bf2f86f2d0dcd7166a8
